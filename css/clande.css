@@ -1,0 +1,41 @@
+.clandestino {
+  background-color: #0f0f0f;
+  color: #00ff00;
+  animation: flicker 0.8s infinite alternate;
+}
+
+.egg-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  color: lime;
+  font-size: 20px;
+  padding: 20px;
+  border: 2px solid lime;
+  box-shadow: 0 0 20px lime;
+  z-index: 9999;
+}
+
+@keyframes flicker {
+  from { opacity: 1; }
+  to { opacity: 0.8; }
+}
+body.clandestino {
+  background: radial-gradient(circle at center, #000 0%, #050 100%);
+  color: lime;
+  font-family: 'Share Tech Mono', monospace;
+}
+.terminal-simulada p {
+  margin: 10px 0;
+  font-size: 18px;
+  animation: flicker 1.2s infinite alternate;
+}
+.volver {
+  display: inline-block;
+  margin-top: 20px;
+  color: red;
+  text-shadow: 0 0 8px red;
+  text-decoration: none;
+}
