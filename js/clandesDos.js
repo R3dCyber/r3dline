@@ -129,14 +129,14 @@ function procesarHistoria(cmd) {
       break;
 
     case 3:
-      if (cmd === 'sí') {
+      if (cmd === 'si') {
         escribir("🌐 Has llegado al Núcleo...\n🎉 ¡Felicidades, desbloqueaste el nivel oculto! 🚀");
         historiaActiva = false;
       } else if (cmd === 'no') {
         escribir("🔒 Cerraste el acceso al núcleo. Quizás no era el momento.");
         historiaActiva = false;
       } else {
-        escribir("❓ Comando inválido. Escribe [sí] o [no].");
+        escribir("❓ Comando inválido. Escribe [si] o [no].");
       }
       break;
   }
