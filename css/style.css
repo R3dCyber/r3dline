@@ -50,15 +50,21 @@ header {
 }
 
 #nav-menu ul li a {
-  color: #00ffee;
+  color: red;
   text-decoration: none;
   font-weight: bold;
 }
-
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: #00ffee;
+}
 #hamburger {
   display: none;
   font-size: 28px;
-  color: #00ffee;
+  color: red;
   cursor: pointer;
 }
 
